@@ -1,0 +1,128 @@
+
+.casinoHomepage {
+    text-align: center;
+    padding: 20px;
+    color: #fff;
+    background: linear-gradient(to bottom, #2a2a72, #009ffd);
+}
+
+
+.casinoHeader {
+    margin-bottom: 30px;
+}
+
+.casinoHeader h1 {
+    font-size: 2.5rem;
+}
+
+.casinoHeader p {
+    font-size: 1.2rem;
+    margin: 10px 0;
+}
+
+.playNowBtn {
+    padding: 10px 20px;
+    font-size: 1rem;
+    background: #ff4500;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+.playNowBtn:hover {
+    background: #ff6347;
+}
+
+
+.casinoBenefits {
+    margin: 20px 0;
+}
+
+.benefitList {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.benefitItem {
+    background: rgba(255, 255, 255, 0.1);
+    padding: 15px;
+    border-radius: 10px;
+    width: 300px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+.benefitItem h3 {
+    font-size: 1.5rem;
+}
+
+
+.depositForm {
+    margin: 30px 0;
+}
+
+.depositForm h2 {
+    font-size: 1.8rem;
+}
+
+.formGroup {
+    margin-bottom: 15px;
+}
+
+label {
+    display: block;
+    font-size: 1rem;
+    margin-bottom: 5px;
+}
+
+input,
+select {
+    width: 100%;
+    padding: 10px;
+    font-size: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.depositBtn {
+    padding: 10px 20px;
+    font-size: 1rem;
+    background: #32cd32;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+.depositBtn:hover {
+    background: #3cb371;
+}
+
+
+@media (max-width: 768px) {
+    .benefitList {
+        flex-direction: column;
+    }
+
+    .benefitItem {
+        width: 90%;
+    }
+}
+
+@media (max-width: 480px) {
+    .casinoHeader h1 {
+        font-size: 2rem;
+    }
+
+    .playNowBtn {
+        font-size: 0.9rem;
+    }
+
+    .depositForm h2 {
+        font-size: 1.5rem;
+    }
+}
